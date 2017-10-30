@@ -1,0 +1,64 @@
+body{
+
+}
+
+.container{
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.clearfix::after{
+	display: table;
+	clear: both;
+	content: "";
+}
+
+/* Header */
+
+.main-navigation{
+	float: left;
+}
+
+.user-block{
+	float: right;
+}
+
+/* Main */
+
+
+.index-content{
+	padding: 55px 0 80px;
+}
+
+.index-content-left{
+	width: 380px;
+	float: left;
+}
+
+.index-content-right{
+	width: 460px;
+	float: right;
+}
+
+/* Footer */
+
+.main-footer{
+	padding: 60px 0 40px 0;
+}
+
+.footer-contracts{
+	float: left;
+	width: 320px;
+	margin-right: 60px;
+}
+
+.footer-social{
+	float: left;
+	width: 180px;
+}
+
+.footer-copyright{
+	float: right;
+	width: 180px;
+}
